@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:nth-of-type(odd) {
+  background: gray;
+}
+
+ul {
+  border: 1px solid gray;
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+input {
+  width: 700px;
+  padding: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
